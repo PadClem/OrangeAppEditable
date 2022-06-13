@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+
+    //Daily
+    <TextView
+        android:text="Daily"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24dp"
+        android:layout_margin="20px"
+        />
+
+    //Weekly
+    <TextView
+        android:text="Weekly"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20px"/>
+
+    //Monthly
+    <TextView
+        android:text="Monthly"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20px"
+        />
+
+    //Yearly
+    <TextView
+        android:text="Yearly"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20px"
+        />
+
+    //Lahat pa to kulang ng Line Graph
+    //Hinahanap ko pa yung real time changes
+    //Pag nilagay na yung mga file or yung report mismo
+    //csv read and write
+
+</TableLayout>

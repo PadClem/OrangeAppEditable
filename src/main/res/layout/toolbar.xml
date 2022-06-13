@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#FF8C00"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //Wag nyo tanggalin yung ic_baseline_menu_24 yan yung menu
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+        //Header
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Orange Leaf"
+            android:id="@+id/toolbar"/>
+    </RelativeLayout>
+
+    //di ko lang ma i edit yung header dun sa text
+
+</RelativeLayout>

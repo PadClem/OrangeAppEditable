@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    //Ingredients Input
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="20px"
+            android:fontFamily="sans-serif-medium"
+            android:text="Ingredients: "
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:ems="10" />
+    </LinearLayout>
+
+    //Expiration Date Input
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Expiration Date: "
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="20px"/>
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="20px"
+            />
+    </LinearLayout>
+
+    //Button
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"
+        android:fontFamily="sans-serif-black"
+        android:text="Add"
+        android:textSize="24dp" />
+
+</TableLayout>
